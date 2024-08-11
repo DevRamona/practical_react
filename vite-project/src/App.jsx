@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Content from './Content'
+import Forms from './Forms'
 
 function App() {
   const person = {
@@ -18,6 +19,7 @@ function App() {
     <>
     <Content persons = {person}
     messages = {message}/>
+    <Forms/>
       
     </>
   )
